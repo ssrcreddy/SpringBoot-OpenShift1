@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Proj1Application {
 	
+	@GetMapping("/")
 	public String welcome() {
 		return "Test application for OpenShift";
 	}
